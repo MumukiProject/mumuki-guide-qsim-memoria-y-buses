@@ -1,0 +1,9 @@
+---
+name: Memoria y buses
+locale: en
+type: learning
+beta: false
+language: qsim
+id_format: "%05d"
+order: []
+private: false
