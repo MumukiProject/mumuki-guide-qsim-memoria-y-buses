@@ -7,7 +7,7 @@ Conocida comúnmente como memoria **RAM** (*Random Access Memory*, por sus sigla
 * Es **aleatoria**, porque acceder a cualquier lugar de la memoria lleva la misma cantidad de tiempo;
 * Es **volátil**, porque si se corta la energía :bulb: (por ejemplo, al apagar la computadora), se pierden todos los datos.
 
-Cada lugar de la memoria (o *celda*, como dijimos recién) se accede mediante una **dirección**, que permite leer o escribir los datos en esa celda.
+Cada lugar de la memoria (o *celda*, como dijimos recién) se accede mediante una **dirección**, que permite leer o escribir los datos en esa celda. Es como para llegar a una casa :house:: se necesita la dirección para saber dónde está ubicada.
 
 Entonces... :smirk:
 
