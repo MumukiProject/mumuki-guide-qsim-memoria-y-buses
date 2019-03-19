@@ -3,10 +3,9 @@ examples:
   preconditions:
     equal:
       R4: '22FF'
-      EEEF: '0000'
   postconditions:
     equal:
-      EEEF: '22FF'
+      R4: '22FF'
   output:
     flags: true
     records: true
