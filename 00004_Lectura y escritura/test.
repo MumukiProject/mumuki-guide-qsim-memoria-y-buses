@@ -3,7 +3,6 @@ examples:
   preconditions:
     records:
       R4: '22FF'
-    memory
   postconditions:
     equal:
       R4: '22FF'
