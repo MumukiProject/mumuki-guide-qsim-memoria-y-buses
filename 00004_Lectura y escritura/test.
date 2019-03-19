@@ -4,11 +4,11 @@ examples:
     records:
       R4: '22FF'
     memory:
-      EEEF: '0000' 
+      EEEF: '0000'
   postconditions:
     equal:
       R4: '22FF'
-      EEEF:'22FF'
+      EEEF: '22FF'
   output:
     flags: true
     records: false
