@@ -1,0 +1,26 @@
+examples:
+- name: 'Se copia el valor de la posición de memoria 0xEEEE al registro R3'
+  preconditions: 
+    records:
+      R3: '0000'
+      EEEE: '3131'
+  postconditions:
+    equal:
+      R3: '3131'        
+  output:
+    memory:
+      from: 'EEEE'
+      to: 'EEEE'
+      
+- name: 'Se copia el valor del registro R4 a la posición de memoria 0xEEEF'
+  preconditions: 
+    records:
+      R4: '22FF'
+      EEEF: '0000'
+  postconditions:
+    equal:
+      EEEF: '22FF'
+  output:
+    memory:
+      from: 'EEEF'
+      to: 'EEEF'
