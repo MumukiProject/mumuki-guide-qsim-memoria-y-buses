@@ -15,4 +15,4 @@ examples:
     special_records: true
     memory:
       from: 'EEEE'
-      to: 'EEEF'
+      to: 'EEFE'
