@@ -3,7 +3,7 @@ examples:
   preconditions: 
     records:
       R3: '0000'
-      EEEE: '3131'
+      'EEEE': '3131'
   postconditions:
     equal:
       R3: '3131'        
@@ -16,10 +16,10 @@ examples:
   preconditions: 
     records:
       R4: '22FF'
-      EEEF: '0000'
+      'EEEF': '0000'
   postconditions:
     equal:
-      EEEF: '22FF'
+      'EEEF': '22FF'
   output:
     memory:
       from: 'EEEE'
