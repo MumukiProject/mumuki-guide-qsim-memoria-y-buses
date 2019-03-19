@@ -3,12 +3,13 @@ examples:
   preconditions:
     records:
       R4: '22FF'
+    memory
   postconditions:
     equal:
       R4: '22FF'
   output:
     flags: true
-    records: true
+    records: false
     special_records: true
     memory:
       from: 'EEEE'
