@@ -1,6 +1,7 @@
 examples:
 - name: 'Se copia el valor del registro R4 a la posición de memoria 0xEEEF'
   preconditions:
+    equal:
       R4: '22FF'
       EEEF: '0000'
   postconditions:
