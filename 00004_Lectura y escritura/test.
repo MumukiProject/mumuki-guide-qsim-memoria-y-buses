@@ -10,7 +10,7 @@ examples:
   output:
     memory:
       from: 'EEEE'
-      to: 'EEEE'
+      to: 'EEEF'
       
 - name: 'Se copia el valor del registro R4 a la posición de memoria 0xEEEF'
   preconditions: 
@@ -22,5 +22,5 @@ examples:
       EEEF: '22FF'
   output:
     memory:
-      from: 'EEEF'
+      from: 'EEEE'
       to: 'EEEF'
